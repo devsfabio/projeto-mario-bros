@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Os Mario Bros</title>
+</head>
+
+<body>
+  <div class="mascara-formulario" onclick="esconderForm()"></div>
+
+  <div class="menu">
+    <img src="assets/logo-header.png" alt="logo mario header">
+    <a href="#">Home</a>
+    <a href="#">Nossos Serviços</a>
+    <a href="#">Fale Conosco</a>
+  </div>
+  <div class="container-global">
+
+    <div class="container-one">
+      <img src="assets/logo (2).png" alt="logo mario">
+      <p>
+        🔧 Encanadores Mario & Luigi - Resolvendo Seus Problemas Hidráulicos Com Estilo! 🔧
+      </p>
+      <br>
+      <p>
+        Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
+        entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+        Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!
+      </p>
+
+      <button onclick="handleClick()">ENTRE EM CONTATO</button>
+    </div>
+
+    <div>
+      <img src="assets/mario (1).png" alt="logo do mario e Luigi" class="logo-mario-luigi">
+    </div>
+
+  </div>
+
+  <div class="caixa-video">
+    <video src="assets/video.mp4" autoplay muted loop></video>
+    <div class="mascara"></div>
+  </div>
+
+  <a class="link-whats" href="https://api.whatsapp.com/send?phone=5511955669596&text=precisa%20de%20ajuda?" target="_blank">
+    <img src="assets/whatsapp.png" alt="logo-whatsapp">
+  </a>
+
+  <form class="form-fale-conosco" action="https://formcarry.com/s/6jH40Yk3-yp" method="POST" enctype="multipart/form-data">
+    <input type="text" placeholder="Seu nome" type="text" name="nome">
+    <input type="text" placeholder="Seu telefone" type="tel" name="telefone">
+    <textarea placeholder="Digite seu problema aqui..." name="duvidas"></textarea>
+
+    <button type="submit">Pedir Orçamento</button>
+  </form>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
